@@ -1,0 +1,40 @@
+server:
+  name: mogu-sms
+  port: 9604
+
+nacos:
+  client:
+    namespaceId: dev
+    timeoutMs: 5000
+    notLoadCacheAtStart: true
+    username: nacos
+    password: nacos
+    logLevel: debug
+  server:
+    - ipAddr: 10.168.1.125
+      port: 8848
+      contextPath: /nacos
+      scheme: http
+  #      grpcPort: 9848
+  config:
+    #指定分组
+    group: test
+    type: yaml
+  discovery:
+    Weight: 1
+    enable: true
+    healthy: true
+    ephemeral: true
+    groupName: DEFAULT_GROUP
+    metadata:
+      appName: mogu-sms
+      Gary-Version: 1.0.0
+
+#mail
+mail:
+  username: 15077731547@163.com
+  password: WABLGJHHZMZWIUVJ  #授权码开启SMTP服务里设置
+  host: smtp.163.com
+  port: 465
+  auth: true
+  default-encoding: UTF-8

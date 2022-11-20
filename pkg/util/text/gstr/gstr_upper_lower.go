@@ -7,7 +7,7 @@
 package gstr
 
 import (
-	utils "github.com/go-mogu/hz-framework/pkg/util/base"
+	utils "github.com/go-mogu/mgu-sms/pkg/util/base"
 	"strings"
 )
 

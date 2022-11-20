@@ -8,8 +8,8 @@ package gconv
 
 import (
 	"database/sql"
-	utils "github.com/go-mogu/hz-framework/pkg/util/base"
-	"github.com/go-mogu/hz-framework/pkg/util/gstructs"
+	utils "github.com/go-mogu/mgu-sms/pkg/util/base"
+	"github.com/go-mogu/mgu-sms/pkg/util/gstructs"
 	"github.com/pkg/errors"
 	"reflect"
 )

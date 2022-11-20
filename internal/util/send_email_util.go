@@ -1,7 +1,7 @@
 package util
 
 import (
-	"github.com/go-mogu/hz-framework/global"
+	"github.com/go-mogu/mgu-sms/global"
 	"gopkg.in/gomail.v2"
 )
 

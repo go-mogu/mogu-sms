@@ -6,7 +6,7 @@
 
 package gconv
 
-import "github.com/go-mogu/hz-framework/pkg/util/json"
+import "github.com/go-mogu/mgu-sms/pkg/util/json"
 
 // SliceMap is alias of Maps.
 func SliceMap(any interface{}) []map[string]interface{} {

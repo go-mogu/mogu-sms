@@ -1,7 +1,7 @@
 package producer
 
 import (
-	"github.com/go-mogu/hz-framework/pkg/mq"
+	"github.com/go-mogu/mgu-sms/pkg/mq"
 	"time"
 )
 

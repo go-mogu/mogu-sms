@@ -1,7 +1,7 @@
 package global
 
 import (
-	"github.com/go-mogu/hz-framework/config"
+	"github.com/go-mogu/mgu-sms/config"
 	"github.com/go-redis/redis/v8"
 	"github.com/spf13/viper"
 )

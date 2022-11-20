@@ -1,7 +1,7 @@
 package consumer
 
 import (
-	gorabbitmq "github.com/go-mogu/hz-framework/pkg/mq"
+	gorabbitmq "github.com/go-mogu/mgu-sms/pkg/mq"
 	"time"
 )
 

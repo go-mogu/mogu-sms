@@ -7,7 +7,7 @@
 package gconv
 
 import (
-	"github.com/go-mogu/hz-framework/pkg/util/encoding/gbinary"
+	"github.com/go-mogu/mgu-sms/pkg/util/encoding/gbinary"
 	"math"
 	"strconv"
 )

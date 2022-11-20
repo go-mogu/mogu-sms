@@ -1,6 +1,6 @@
-module github.com/go-mogu/hz-framework
+module github.com/go-mogu/mgu-sms
 
-go 1.18
+go 1.19
 
 require (
 	github.com/cloudwego/hertz v0.4.1

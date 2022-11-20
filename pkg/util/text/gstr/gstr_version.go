@@ -7,7 +7,7 @@
 package gstr
 
 import (
-	"github.com/go-mogu/hz-framework/pkg/util/gconv"
+	"github.com/go-mogu/mgu-sms/pkg/util/gconv"
 	"strings"
 )
 

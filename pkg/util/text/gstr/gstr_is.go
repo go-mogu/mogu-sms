@@ -6,7 +6,7 @@
 
 package gstr
 
-import utils "github.com/go-mogu/hz-framework/pkg/util/base"
+import utils "github.com/go-mogu/mgu-sms/pkg/util/base"
 
 // IsNumeric tests whether the given string s is numeric.
 func IsNumeric(s string) bool {

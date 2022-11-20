@@ -7,8 +7,8 @@
 package gstr
 
 import (
-	utils "github.com/go-mogu/hz-framework/pkg/util/base"
-	"github.com/go-mogu/hz-framework/pkg/util/gconv"
+	utils "github.com/go-mogu/mgu-sms/pkg/util/base"
+	"github.com/go-mogu/mgu-sms/pkg/util/gconv"
 	"strings"
 )
 

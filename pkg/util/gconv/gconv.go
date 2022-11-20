@@ -12,9 +12,9 @@ package gconv
 import (
 	"fmt"
 	"github.com/cloudwego/hertz/pkg/common/hlog"
-	"github.com/go-mogu/hz-framework/pkg/util/encoding/gbinary"
-	"github.com/go-mogu/hz-framework/pkg/util/json"
-	"github.com/go-mogu/hz-framework/pkg/util/reflection"
+	"github.com/go-mogu/mgu-sms/pkg/util/encoding/gbinary"
+	"github.com/go-mogu/mgu-sms/pkg/util/json"
+	"github.com/go-mogu/mgu-sms/pkg/util/reflection"
 	"math"
 	"reflect"
 	"strconv"

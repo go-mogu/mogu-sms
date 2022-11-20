@@ -6,7 +6,7 @@
 
 package gconv
 
-import "github.com/go-mogu/hz-framework/pkg/util/gtime"
+import "github.com/go-mogu/mgu-sms/pkg/util/gtime"
 
 // iString is used for type assert api for String().
 type iString interface {

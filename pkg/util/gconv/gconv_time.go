@@ -7,8 +7,8 @@
 package gconv
 
 import (
-	utils "github.com/go-mogu/hz-framework/pkg/util/base"
-	"github.com/go-mogu/hz-framework/pkg/util/gtime"
+	utils "github.com/go-mogu/mgu-sms/pkg/util/base"
+	"github.com/go-mogu/mgu-sms/pkg/util/gtime"
 	"time"
 )
 

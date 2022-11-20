@@ -7,7 +7,7 @@
 package gstructs
 
 import (
-	"github.com/go-mogu/hz-framework/pkg/util/gtag"
+	"github.com/go-mogu/mgu-sms/pkg/util/gtag"
 	"github.com/pkg/errors"
 	"reflect"
 	"strconv"

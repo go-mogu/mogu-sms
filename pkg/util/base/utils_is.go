@@ -7,7 +7,7 @@
 package utils
 
 import (
-	"github.com/go-mogu/hz-framework/pkg/util/empty"
+	"github.com/go-mogu/mgu-sms/pkg/util/empty"
 	"reflect"
 )
 

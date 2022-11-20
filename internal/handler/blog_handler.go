@@ -3,11 +3,11 @@ package handler
 import (
 	"context"
 	"github.com/cloudwego/hertz/pkg/common/hlog"
-	"github.com/go-mogu/hz-framework/global"
-	"github.com/go-mogu/hz-framework/pkg/consts/Constants"
-	"github.com/go-mogu/hz-framework/pkg/consts/RedisConf"
-	"github.com/go-mogu/hz-framework/pkg/mq"
-	"github.com/go-mogu/hz-framework/pkg/util/gconv"
+	"github.com/go-mogu/mgu-sms/global"
+	"github.com/go-mogu/mgu-sms/pkg/consts/Constants"
+	"github.com/go-mogu/mgu-sms/pkg/consts/RedisConf"
+	"github.com/go-mogu/mgu-sms/pkg/mq"
+	"github.com/go-mogu/mgu-sms/pkg/util/gconv"
 )
 
 type blogHandler struct{}

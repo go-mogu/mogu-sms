@@ -2,11 +2,11 @@ package listener
 
 import (
 	"github.com/cloudwego/hertz/pkg/common/hlog"
-	"github.com/go-mogu/hz-framework/global"
-	"github.com/go-mogu/hz-framework/internal/amqp/consumer"
-	"github.com/go-mogu/hz-framework/internal/consts"
-	"github.com/go-mogu/hz-framework/internal/handler"
-	"github.com/go-mogu/hz-framework/pkg/mq"
+	"github.com/go-mogu/mgu-sms/global"
+	"github.com/go-mogu/mgu-sms/internal/amqp/consumer"
+	"github.com/go-mogu/mgu-sms/internal/consts"
+	"github.com/go-mogu/mgu-sms/internal/handler"
+	"github.com/go-mogu/mgu-sms/pkg/mq"
 	"time"
 )
 

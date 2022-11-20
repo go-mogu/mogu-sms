@@ -7,10 +7,10 @@
 package gconv
 
 import (
-	utils "github.com/go-mogu/hz-framework/pkg/util/base"
-	"github.com/go-mogu/hz-framework/pkg/util/empty"
-	"github.com/go-mogu/hz-framework/pkg/util/gstructs"
-	"github.com/go-mogu/hz-framework/pkg/util/json"
+	utils "github.com/go-mogu/mgu-sms/pkg/util/base"
+	"github.com/go-mogu/mgu-sms/pkg/util/empty"
+	"github.com/go-mogu/mgu-sms/pkg/util/gstructs"
+	"github.com/go-mogu/mgu-sms/pkg/util/json"
 	"github.com/pkg/errors"
 	"reflect"
 	"strings"

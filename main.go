@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-mogu/hz-framework/bootstrap"
-	"github.com/go-mogu/hz-framework/config"
-	"github.com/go-mogu/hz-framework/router"
+	"github.com/go-mogu/mgu-sms/bootstrap"
+	"github.com/go-mogu/mgu-sms/config"
+	"github.com/go-mogu/mgu-sms/router"
 	"github.com/urfave/cli/v2"
 	"os"
 	"runtime"

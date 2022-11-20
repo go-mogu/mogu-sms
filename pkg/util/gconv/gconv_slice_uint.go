@@ -7,9 +7,9 @@
 package gconv
 
 import (
-	utils "github.com/go-mogu/hz-framework/pkg/util/base"
-	"github.com/go-mogu/hz-framework/pkg/util/json"
-	"github.com/go-mogu/hz-framework/pkg/util/reflection"
+	utils "github.com/go-mogu/mgu-sms/pkg/util/base"
+	"github.com/go-mogu/mgu-sms/pkg/util/json"
+	"github.com/go-mogu/mgu-sms/pkg/util/reflection"
 	"reflect"
 	"strings"
 )

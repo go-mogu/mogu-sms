@@ -8,7 +8,7 @@
 package empty
 
 import (
-	"github.com/go-mogu/hz-framework/pkg/util/reflection"
+	"github.com/go-mogu/mgu-sms/pkg/util/reflection"
 	"reflect"
 	"time"
 )

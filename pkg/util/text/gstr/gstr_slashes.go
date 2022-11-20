@@ -8,7 +8,7 @@ package gstr
 
 import (
 	"bytes"
-	utils "github.com/go-mogu/hz-framework/pkg/util/base"
+	utils "github.com/go-mogu/mgu-sms/pkg/util/base"
 )
 
 // AddSlashes quotes chars('"\) with slashes.

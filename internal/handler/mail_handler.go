@@ -2,9 +2,9 @@ package handler
 
 import (
 	"github.com/cloudwego/hertz/pkg/common/hlog"
-	"github.com/go-mogu/hz-framework/internal/util"
-	"github.com/go-mogu/hz-framework/pkg/mq"
-	"github.com/go-mogu/hz-framework/pkg/util/gconv"
+	"github.com/go-mogu/mgu-sms/internal/util"
+	"github.com/go-mogu/mgu-sms/pkg/mq"
+	"github.com/go-mogu/mgu-sms/pkg/util/gconv"
 )
 
 type mailHandler struct{}

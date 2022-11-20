@@ -12,8 +12,8 @@ package gtime
 import (
 	"fmt"
 	"github.com/cloudwego/hertz/pkg/common/hlog"
-	utils "github.com/go-mogu/hz-framework/pkg/util/base"
-	"github.com/go-mogu/hz-framework/pkg/util/text/gregex"
+	utils "github.com/go-mogu/mgu-sms/pkg/util/base"
+	"github.com/go-mogu/mgu-sms/pkg/util/text/gregex"
 	"github.com/pkg/errors"
 	"os"
 	"regexp"

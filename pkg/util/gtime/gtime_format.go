@@ -8,7 +8,7 @@ package gtime
 
 import (
 	"bytes"
-	"github.com/go-mogu/hz-framework/pkg/util/text/gregex"
+	"github.com/go-mogu/mgu-sms/pkg/util/text/gregex"
 	"strconv"
 	"strings"
 )

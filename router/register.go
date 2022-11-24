@@ -8,6 +8,7 @@ import (
 	"github.com/cloudwego/hertz/pkg/app/server/registry"
 	"github.com/cloudwego/hertz/pkg/common/utils"
 	"github.com/go-mogu/mgu-sms/global"
+	baseClient "github.com/go-mogu/mgu-sms/pkg/client"
 	"github.com/go-mogu/mgu-sms/pkg/response"
 	"github.com/go-mogu/mgu-sms/pkg/util"
 	"github.com/go-mogu/mogu-registry/nacos"
@@ -52,5 +53,9 @@ func Register(port string) *server.Hertz {
 		method := ctx.Request.Method()
 		response.NotFoundException(ctx, fmt.Sprintf("%s %s not found", method, path))
 	})
+	err = baseClient.InitClient()
+	if err != nil {
+		panic(err)
+	}
 	return h
 }
